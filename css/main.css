@@ -1,0 +1,66 @@
+body{
+	background: rgba(73,155,234,1);
+	background-repeat: none;
+	background-size: contain;
+	font-family: 'Poppins', sans-serif;
+}
+.profileHeader{
+	background-color: #cddc39;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 0;
+	margin-top: 0;
+}
+.pencil{
+	width: 130px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto
+}
+#form, #myProfile{
+	
+	margin: 30px auto;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0 0 20px 0;
+	box-shadow: 15px 15px rgba(0,0,0,.35);
+}
+.myProfile{
+	margin: 30px auto;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+#myform{
+	width: 100%;
+}
+div{
+	margin: 20px 0;
+}
+label{
+	margin-right: 15px;
+}
+button{
+	margin: 20px 0;
+	border-radius: 5px;
+	background-color: rgba(73,155,234,1);
+	color: #fff;
+	border: none;
+	padding: 7px;
+	box-shadow: 3px 3px rgba(0,0,0,.25);
+}
+input{
+	margin: 15px 0;
+}
+.selectCountry{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.noInput{
+	color: #FF0000;
+	font-size: 20px;
+}
+

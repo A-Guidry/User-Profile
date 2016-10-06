@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <title>New User Signup</title>
+   </head>
+   <body>
+      <div id="form" class="container">
+         <h1 class="profileHeader">Create Your Profile</h1>
+         <form id="myForm" class="col-sm-6 col-sm-offset-3 col-lg-8 col-lg-offset-2">
+            <div><img class="pencil img-responsive" src="img/pencil.png"></div>
+            <div id="results"></div>
+            <div class="names form-group">
+               <input class="form-control" type="text" id="firstName" placeholder="First Name">
+               <input class="form-control" type="text" id="lastName" placeholder="Last Name">
+            </div>
+            <!--end names -->
+            <div class="gender form-group">
+               <label>Gender </label>
+               <label class="radio-inline" id="genders"><input type="radio" name="optradio" value="Male"> Male</label>
+               <label class="radio-inline" id="genders"><input type="radio" name="optradio"  value="Female">Female</label>
+            </div>
+            <!--end gender -->
+            <div class="email">
+               <input class="form-control" type="email" id="email" placeholder="Email">
+            </div>
+            <!--end email -->
+            <div class="userId">
+               <input class="form-control" type="text" id="userName" placeholder="Username">
+               <input class="form-control" type="text" id="password" placeholder="Password">
+            </div>
+            <!--end userID -->
+            <div class=" form-group selectCountry">
+               <label>Select Your Country</label>
+               <select class="form-control">
+                  <option class="country" value="">Select...</option>
+                  <option class="country" value="Unied States">United States</option>
+                  <option class="country" value="Mexico">Mexico</option>
+                  <option class="country" value="Canada">Canada</option>
+               </select>
+            </div>
+            <button type="button" id="submitBtn">Create Profile</button>
+      </div>
+      <!--end form -->
+      </form>
+      <div class="container">
+         <div id="myProfile" class="col-sm-8 col-sm-offset-3 col-lg-10 col-lg-offset-2">
+            <div id="myProfileTitle" class="profileHeader"></div>
+            <div id="image"></div>
+            <div>
+               <h3 id="newFirstName" class="userProfile.name"></h3>
+               <h3 id="newLastName"></h3>
+               <h3 id="newUserGender"></h3>
+               <h3 id="newUserEmail"></h3>
+               <h3 id="newUserId"></h3>
+               <h3 id="newUserCountry"></h3>
+            </div>
+         </div>
+      </div>
+      <script src="js/jQuery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
