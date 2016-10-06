@@ -92,6 +92,8 @@ var userProfile ={
 // Delays the user profile input from being displayed for 1 second
 setTimeout(function(){
 	newProfile(userProfile)
+	document.getElementById("myProfile").className = "myProfile"
+	document.getElementById("myProfileTitle").className ="profileHeader"
 },1000)
 
 
@@ -132,7 +134,6 @@ function newProfile(userProfile) {
 	document.getElementById("form").style.display = "none"
 	document.getElementById("results").style.display = "none"
 	document.getElementById("myProfile").style.display = "block"
-	document.getElementById("myProfile").className = "myProfile"
 
 }
 // Submit the form when clicking the button

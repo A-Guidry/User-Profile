@@ -16,7 +16,7 @@ body{
 	text-align: center;
 	margin: 0 auto
 }
-#form, #myProfile{
+#form{
 	
 	margin: 30px auto;
 	text-align: center;
@@ -25,12 +25,14 @@ body{
 	padding: 0 0 20px 0;
 	box-shadow: 15px 15px rgba(0,0,0,.35);
 }
+
 .myProfile{
 	margin: 30px auto;
 	text-align: center;
 	background-color: #fff;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 0 0 20px 0;
+	box-shadow: 15px 15px rgba(0,0,0,.35);
 }
 #myform{
 	width: 100%;
@@ -62,5 +64,14 @@ input{
 .noInput{
 	color: #FF0000;
 	font-size: 20px;
+}
+.git{
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+.fa, .git>a, .git>a:hover {
+	color: #cddc39; 
+	text-decoration: none;
 }
 
